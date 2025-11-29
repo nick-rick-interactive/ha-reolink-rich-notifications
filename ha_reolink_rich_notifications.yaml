@@ -107,8 +107,8 @@ action:
               tag: "{{ trigger.to_state.context.id }}"
               ttl: 0
               priority: high
-              url: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000J5KDG1PTW;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
-              clickAction: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000J5KDG1PTW;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
+              url: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000JK6R51HXA;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
+              clickAction: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000JK6R51HXA;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
 
   # Create camera snapshot
   - service: camera.snapshot
@@ -129,5 +129,5 @@ action:
               image: "/media/local/{{ image_file }}"
               ttl: 0
               priority: high
-              url: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000J5KDG1PTW;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
-              clickAction: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000J5KDG1PTW;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
+              url: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000JK6R51HXA;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
+              clickAction: "intent://scan/#Intent;launchFlags=0x14000000;component=com.mcu.reolink/com.android.bc.login.WelcomeActivity;S.UID=9527000JK6R51HXA;S.DEVNAME=Ricken-sec-n;S.ALMTYPE=PEOPLE;S.ALMTIME={{(now()-timedelta(seconds=5)).isoformat()}};S.ALMCHN={{notify_channel.split(',')[repeat.index]}};S.ALMNAME=Detection;end"
